@@ -343,7 +343,6 @@ def document_role(role_path, playbook_content, generate_graph, no_backup, no_doc
         mermaid_code_per_file = generate_mermaid_role_tasks_per_file(
             role_info["tasks"])
 
-
     # Render the static template
     if md_role_template:
         if is_url(md_role_template):
